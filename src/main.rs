@@ -19,7 +19,7 @@ const MIDI_HEADER_NUM_TRACKS: u16 = 1;
 const MIDI_HEADER_DIVISION: u16 = 0x0060;
 
 fn print_help() {
-    println!("Usage: ypd131bup2midi FILE");
+    println!("Usage: ydp131bup2midi FILE");
 }
 
 fn extract_midi_data(file_name: &std::string::String) -> std::io::Result<Vec<u8>> {
@@ -102,7 +102,7 @@ fn write_midi_file(
 fn main() -> std::io::Result<()> {
     let args: Vec<String> = env::args().collect();
 
-    println!("Hi. This is ypd131bup2midi.");
+    println!("Hi. This is ydp131bup2midi.");
 
     if args.len() == 1 {
         print_help();

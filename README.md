@@ -3,7 +3,7 @@ This project allows to extract MIDI data from BUP data dump files of the old YDP
 
 Example usage:
 
-$ ./ypd131bup2midi BUPFILE
+$ ./ydp131bup2midi BUPFILE
 
 The program outputs a MIDI file with the name of the input file but with a MIDI extension.
 
