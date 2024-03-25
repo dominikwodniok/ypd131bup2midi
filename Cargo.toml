@@ -1,0 +1,7 @@
+[package]
+name = "ypd131bup2midi"
+version = "0.1.0"
+authors = ["Dominik Wodniok <dominikwodniok@gmail.com>"]
+
+[dependencies]
+byteorder = "^1.5.0"
